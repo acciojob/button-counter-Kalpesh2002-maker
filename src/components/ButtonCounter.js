@@ -10,18 +10,11 @@ export default function ButtonCounter() {
   return (
     <div style={{ padding: "20px" }}>
       <p style={{ fontSize: "22px" }}>
-        Button clicked {count} {count === 1 ? "time" : "times"}
+        Button clicked {count} {count === 1 ? "times" : "times"}
       </p>
 
       <button
         onClick={handleClick}
-        style={{
-          padding: "10px 20px",
-          fontSize: "18px",
-          cursor: "pointer",
-          borderRadius: "6px",
-          border: "2px solid black",
-        }}
       >
         Click me
       </button>
