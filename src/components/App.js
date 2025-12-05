@@ -1,13 +1,11 @@
-
 import React from "react";
-import './../styles/App.css';
+import ButtonCounter from "./ButtonCounter";
 
-const App = () => {
+export default function App() {
   return (
     <div>
-        {/* Do not remove the main div */}
+      {/* <h1 style={{ textAlign: "center" }}>Button Counter - React Assignment</h1> */}
+      <ButtonCounter />
     </div>
-  )
+  );
 }
-
-export default App
